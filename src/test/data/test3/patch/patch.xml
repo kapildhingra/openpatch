@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<patch>
+  <addedFiles>
+    <file path="d1/d2/d2_f5.txt"/>
+    <file path="d1/d1_f4.txt"/>
+    <file path="d1/d1_f5.txt"/>
+  </addedFiles>
+  <udpatedFiles>
+    <file path="d1/d2/d2_f1.txt" expectedLastModified="1400982852759"/>
+    <file path="d1/d2/d2_f2.txt" expectedLastModified="1400982862123"/>
+    <file path="d1/d1_f1.txt" expectedLastModified="1400982852759"/>
+    <file path="d1/d1_f2.txt" expectedLastModified="1400982862123"/>
+  </udpatedFiles>
+  <removedFiles>
+    <file path="d1/d2/d2_f4.txt" expectedLastModified="1400983138526"/>
+  </removedFiles>
+  <addedDirectories/>
+  <removedDirectories>
+    <directory path="d1/d3" expectedLastModified="1401129683575"/>
+  </removedDirectories>
+</patch>
